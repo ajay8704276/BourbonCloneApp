@@ -12,7 +12,7 @@ android {
         versionCode 1
         versionName "1.0"
 
-       /* buildConfigField("String", "DRIBBBLE_API_URL",
+  /*      buildConfigField("String", "DRIBBBLE_API_URL",
                 "\"${dribbbleApiUrl}\"")
         buildConfigField("String", "DRIBBBLE_ACCESS_TOKEN",
                 "\"${accessToken}\"")*/

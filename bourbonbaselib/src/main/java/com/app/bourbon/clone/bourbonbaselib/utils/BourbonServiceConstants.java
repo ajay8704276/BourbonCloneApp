@@ -5,4 +5,10 @@ package com.app.bourbon.clone.bourbonbaselib.utils;
  */
 
 public class BourbonServiceConstants {
+
+    /**
+     * Need to add these two fields later on
+     */
+    public static final String DRIBBLE_API_URL = "";
+    public static final String DRIBBLE_ACCESS_TOKEN = "";
 }
