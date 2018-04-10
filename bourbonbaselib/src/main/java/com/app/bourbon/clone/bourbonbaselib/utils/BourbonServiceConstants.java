@@ -9,6 +9,6 @@ public class BourbonServiceConstants {
     /**
      * Need to add these two fields later on
      */
-    public static final String DRIBBLE_API_URL = "";
+    public static final String DRIBBLE_API_URL = "https://api.dribbble.com/v1/";
     public static final String DRIBBLE_ACCESS_TOKEN = "";
 }
