@@ -1,1 +1,1 @@
-include ':mobile', ':wear', ':tv', ':bourbonbaselib', ':borbontestlib'
+include ':mobile', ':wear', ':tv', ':bourbonbaselib', ':bourbontestlib'
