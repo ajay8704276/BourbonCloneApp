@@ -1,5 +1,9 @@
 package com.app.bourbon.clone.component;
 
+/**
+ * Created by admin on 09/04/18.
+ */
+
 import com.app.bourbon.clone.bourbonbaselib.injection.PerActivity;
 import com.app.bourbon.clone.bourbonbaselib.injection.component.ApplicationComponent;
 import com.app.bourbon.clone.bourbonbaselib.injection.module.ActivityModule;
@@ -10,21 +14,16 @@ import com.app.bourbon.clone.ui.shots.ShotFragment;
 import dagger.Component;
 
 /**
- * Created by ajay on 9/4/18.
- *
- * This interface is created to inject the dependencies on all activities
- *
- * across the application
- *
+ * This component inject dependencies to all activities across the module
  */
+
 @PerActivity
 @Component(dependencies = ApplicationComponent.class,modules = ActivityModule.class)
 public interface ActivityComponent {
 
+    void inject(BrowseFragment mMBrowseFragment);
 
-    void inject(BrowseFragment browseFragment);
+    void inject(ShotFragment mShotFragment);
 
-    void inject(ShotFragment shotFragment);
-
-    void inject(ShotActivity shotActivity);
+    void inject(ShotActivity mShotActivity);
 }
